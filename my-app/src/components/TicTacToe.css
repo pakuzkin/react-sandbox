@@ -1,0 +1,29 @@
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button.X {
+    color: #f44336;
+  }
+  
+  .button.O {
+    color: #2196f3;
+  }
+  
